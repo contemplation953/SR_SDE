@@ -1,0 +1,320 @@
+job start time is Fri Oct 20 10:20:55 CST 2023
+b01
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 25).
+ 
+ 
+ 
+ 
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.168590 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.021329 
+
+ 
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006194 
+
+ 
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.048515 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.448710 
+
+ 
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.009544 
+
+ 
+Elapsed time is 1499.861524 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.011399 
+
+ 
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006900 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.015316 
+
+ 
+Elapsed time is 2070.334061 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.005928 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.016293 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.010815 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.057416 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.005946 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006522 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.017549 
+
+ 
+ 
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006753 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.009222 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.021882 
+
+ 
+Elapsed time is 3642.944023 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.007397 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.013740 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006554 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.007648 
+
+ 
+Elapsed time is 4245.182690 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.008638 
+
+ 
+Elapsed time is 4581.733905 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.007293 
+
+ 
+Elapsed time is 4602.610911 seconds.
+Elapsed time is 4916.841088 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.007719 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.010332 
+
+ 
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.005939 
+
+Elapsed time is 5257.093969 seconds.
+Elapsed time is 5375.487119 seconds.
+Elapsed time is 5482.594634 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.005815 
+
+ 
+Elapsed time is 5737.740609 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006278 
+
+Elapsed time is 5906.924631 seconds.
+Elapsed time is 6087.954313 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006777 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006517 
+
+Elapsed time is 6473.677284 seconds.
+Elapsed time is 6615.493585 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.004699 
+
+Elapsed time is 6980.666872 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.057696 
+
+Elapsed time is 7203.329961 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.008767 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006790 
+
+Elapsed time is 7459.865618 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006385 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006291 
+
+Elapsed time is 7996.357294 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.005509 
+
+Elapsed time is 7998.833608 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.007437 
+
+ 
+Elapsed time is 8868.751947 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006614 
+
+Elapsed time is 9596.843987 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.005872 
+
+Elapsed time is 10047.182387 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006809 
+
+Elapsed time is 11117.213269 seconds.
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.006627 
+
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 0.003094 
+
+Elapsed time is 13279.667587 seconds.
+Parallel pool using the 'local' profile is shutting down.
+job end time is Fri Oct 20 14:04:17 CST 2023
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b01>
+Subject: Job 176897: <ssr_5dof_time> in cluster <cluster1> Done
+
+Job <ssr_5dof_time> was submitted from host <m01> by user <wangqb> in cluster <cluster1> at Fri Oct 20 10:20:52 2023
+Job was executed on host(s) <25*b01>, in queue <big>, as user <wangqb> in cluster <cluster1> at Fri Oct 20 10:20:53 2023
+</share/home/wangqb> was used as the home directory.
+</share/home/wangqb/workspace/Hamiltonian_5dof_RK-fake> was used as the working directory.
+Started at Fri Oct 20 10:20:53 2023
+Terminated at Fri Oct 20 14:04:20 2023
+Results reported at Fri Oct 20 14:04:20 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J ssr_5dof_time
+#BSUB -q big
+#BSUB -cwd /share/home/wangqb/workspace/Hamiltonian_5dof_RK-fake
+#BSUB -o ssr_5dof_time-1697768451935.out
+#BSUB -e ssr_5dof_time-1697768451935.out
+
+#BSUB -n 25
+#BSUB -R "span[ptile=25]"
+
+
+
+
+echo job start time is `date`
+echo `hostname`
+/share/software/matlab/R2020a/bin/matlab -nodesktop -nosplash -nodisplay -r SSR
+echo job end time is `date`
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   143986.00 sec.
+    Max Memory :                                 30666 MB
+    Average Memory :                             28139.56 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              54
+    Max Threads :                                2338
+    Run time :                                   13407 sec.
+    Turnaround time :                            13408 sec.
+
+The output (if any) is above this job summary.
+

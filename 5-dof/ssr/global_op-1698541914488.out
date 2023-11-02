@@ -1,0 +1,254 @@
+job start time is Sun Oct 29 09:11:57 CST 2023
+b01
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Reference to non-existent field 'x'.
+
+Error in global_optimize (line 12)
+coeff=data.x;
+} 
+job end time is Sun Oct 29 09:12:27 CST 2023
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b01>
+Subject: Job 178766: <global_op> in cluster <cluster1> Done
+
+Job <global_op> was submitted from host <m01> by user <wangqb> in cluster <cluster1> at Sun Oct 29 09:11:55 2023
+Job was executed on host(s) <b01>, in queue <big>, as user <wangqb> in cluster <cluster1> at Sun Oct 29 09:11:55 2023
+</share/home/wangqb> was used as the home directory.
+</share/home/wangqb/workspace/Hamiltonian_5dof_RK-fake> was used as the working directory.
+Started at Sun Oct 29 09:11:55 2023
+Terminated at Sun Oct 29 09:12:28 2023
+Results reported at Sun Oct 29 09:12:28 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J global_op
+#BSUB -q big
+#BSUB -cwd /share/home/wangqb/workspace/Hamiltonian_5dof_RK-fake
+#BSUB -o global_op-1698541914488.out
+#BSUB -e global_op-1698541914488.out
+
+#BSUB -n 1
+#BSUB -R "span[ptile=1]"
+
+
+
+
+echo job start time is `date`
+echo `hostname`
+/share/software/matlab/R2020a/bin/matlab -nodesktop -nosplash -nodisplay -r global_optimize
+echo job end time is `date`
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.97 sec.
+    Max Memory :                                 506 MB
+    Average Memory :                             276.43 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                87
+    Run time :                                   34 sec.
+    Turnaround time :                            33 sec.
+
+The output (if any) is above this job summary.
+
+job start time is Sun Oct 29 09:20:50 CST 2023
+b01
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Operation terminated by user during ComSimpson (line 14)
+
+
+In fp_solve (line 16)
+        y=ComSimpson(fun,100,0,pst(i));
+
+In global_cost (line 17)
+        [~, p_analytical]=fp_solve(H_list,m_x,s_x);
+
+In
+global_optimize>@(coeff)global_cost(coeff,pdf_matrix,H_list,D_list,mhv1,shv1)
+(line 26)
+fun=@(coeff) global_cost(coeff,pdf_matrix,H_list,D_list,mhv1,shv1);
+
+In fminsearch (line 365)
+                x(:) = xcc; fxcc = funfcn(x,varargin{:});
+
+In global_optimize (line 28)
+[x,val]=fminsearch(fun,coeff,options);
+} 
+{Operation terminated by user during ComSimpson (line 14)
+
+
+In fp_solve (line 16)
+        y=ComSimpson(fun,100,0,pst(i));
+
+In global_cost (line 17)
+        [~, p_analytical]=fp_solve(H_list,m_x,s_x);
+
+In
+global_optimize>@(coeff)global_cost(coeff,pdf_matrix,H_list,D_list,mhv1,shv1)
+(line 26)
+fun=@(coeff) global_cost(coeff,pdf_matrix,H_list,D_list,mhv1,shv1);
+
+In fminsearch (line 365)
+                x(:) = xcc; fxcc = funfcn(x,varargin{:});
+
+In global_optimize (line 28)
+[x,val]=fminsearch(fun,coeff,options);
+} 
+
+>> job end time is Sun Oct 29 16:38:14 CST 2023
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b01>
+Subject: Job 178768: <global_op> in cluster <cluster1> Exited
+
+Job <global_op> was submitted from host <m01> by user <wangqb> in cluster <cluster1> at Sun Oct 29 09:20:47 2023
+Job was executed on host(s) <b01>, in queue <big>, as user <wangqb> in cluster <cluster1> at Sun Oct 29 09:20:48 2023
+</share/home/wangqb> was used as the home directory.
+</share/home/wangqb/workspace/Hamiltonian_5dof_RK-fake> was used as the working directory.
+Started at Sun Oct 29 09:20:48 2023
+Terminated at Sun Oct 29 16:38:17 2023
+Results reported at Sun Oct 29 16:38:17 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J global_op
+#BSUB -q big
+#BSUB -cwd /share/home/wangqb/workspace/Hamiltonian_5dof_RK-fake
+#BSUB -o global_op-1698541914488.out
+#BSUB -e global_op-1698541914488.out
+
+#BSUB -n 1
+#BSUB -R "span[ptile=1]"
+
+
+
+
+echo job start time is `date`
+echo `hostname`
+/share/software/matlab/R2020a/bin/matlab -nodesktop -nosplash -nodisplay -r global_optimize
+echo job end time is `date`
+
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with signal termination: 14.
+
+Resource usage summary:
+
+    CPU time :                                   27490.23 sec.
+    Max Memory :                                 627 MB
+    Average Memory :                             605.58 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                129
+    Run time :                                   26246 sec.
+    Turnaround time :                            26250 sec.
+
+The output (if any) is above this job summary.
+
+job start time is Sun Oct 29 16:40:18 CST 2023
+b01
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+val =
+
+   0.025150422956303
+
+Elapsed time is 49696.138572 seconds.
+job end time is Mon Oct 30 06:28:42 CST 2023
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b01>
+Subject: Job 178874: <global_op> in cluster <cluster1> Done
+
+Job <global_op> was submitted from host <m01> by user <wangqb> in cluster <cluster1> at Sun Oct 29 16:40:04 2023
+Job was executed on host(s) <b01>, in queue <big>, as user <wangqb> in cluster <cluster1> at Sun Oct 29 16:40:05 2023
+</share/home/wangqb> was used as the home directory.
+</share/home/wangqb/workspace/Hamiltonian_5dof_RK-fake> was used as the working directory.
+Started at Sun Oct 29 16:40:05 2023
+Terminated at Mon Oct 30 06:28:45 2023
+Results reported at Mon Oct 30 06:28:45 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J global_op
+#BSUB -q big
+#BSUB -cwd /share/home/wangqb/workspace/Hamiltonian_5dof_RK-fake
+#BSUB -o global_op-1698541914488.out
+#BSUB -e global_op-1698541914488.out
+
+#BSUB -n 1
+#BSUB -R "span[ptile=1]"
+
+
+
+
+echo job start time is `date`
+echo `hostname`
+/share/software/matlab/R2020a/bin/matlab -nodesktop -nosplash -nodisplay -r global_optimize
+echo job end time is `date`
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   52659.59 sec.
+    Max Memory :                                 627 MB
+    Average Memory :                             620.04 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                130
+    Run time :                                   49717 sec.
+    Turnaround time :                            49721 sec.
+
+The output (if any) is above this job summary.
+
