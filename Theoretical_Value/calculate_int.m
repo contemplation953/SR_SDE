@@ -5,7 +5,7 @@ function [M_int_list, Sigma_square_int_list, TT_int_list] = calculate_int(diff_l
     TT_int_list = zeros(1,len);
     
     data_file=sprintf('%s/int_list.mat',data_path);
-    if exist(data_file,'file')
+    if ~exist(data_file,'file')
 	    data = load(data_file);
         M_int_list = data.M_int_list;
         Sigma_square_int_list = data.Sigma_square_int_list;

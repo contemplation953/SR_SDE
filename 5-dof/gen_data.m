@@ -145,7 +145,7 @@ tic;
     monment_count(monment_count==0)=1;
     moment1=(moment1_diff./monment_count)';
     moment2=(moment2_diff./monment_count)';
-    save(sprintf('%s/H_%d.mat',data_path,file_index),'p_data','moment1','moment2','monment_count','-v7.3');
+    %save(sprintf('%s/H_%d.mat',data_path,file_index),'p_data','moment1','moment2','monment_count','-v7.3');
     file_index=file_index+1;
 toc;
 end

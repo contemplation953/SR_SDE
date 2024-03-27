@@ -5,7 +5,7 @@ function res=global_cost(coeff,pdf_matrix,H_list,D_list,moment1_matrix,moment2_m
     monent1_ans_matrix=zeros(size(moment1_matrix));
     monent2_ans_matrix=zeros(size(moment1_matrix));
     c=coeff;
-
+   
     for i=1:length(D_list)
         %d->x;h->y;
         x=D_list(i);

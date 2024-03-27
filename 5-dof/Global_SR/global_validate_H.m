@@ -9,7 +9,7 @@ data_path=sprintf('%s/5-dof/data',root_path);
 %训练集
 DD_list=0.005:0.0005:0.035;
 %检验集
-VD_list=[0.004,0.0258,0.036,0.04];
+VD_list=[0.004,0.0258,0.036];
 
 if Validata_Flag==1
     D_list=DD_list;

@@ -4,7 +4,9 @@ root_path=pwd();
 data_path=sprintf('%s/5-dof/data',root_path);
 H_list=0.01:0.01:20;
 d_list=0.005:0.0005:0.035;
+
 c=load(sprintf('%s/global_params.mat',data_path)).x;
+%c=[-0.0004,3.8064,-0.015,0.1356,-0.0014,-0.001,7.1574,0.0476,-104.847,2.2924,-0.0044,-11.7463,-0.0288,0.0001];
 
 fd_max=zeros(61,length(H_list));
 fh_max=zeros(61,length(H_list));
@@ -31,8 +33,12 @@ surf(fd_max,fh_max,fmh_max);
 grid on;
 xlabel('D');
 ylabel('H');
-zlabel('M(H)');
+zlabel('M(H,D)');
 shading interp;
+view(-67.71,40.57);
+png_path=sprintf('%s/res-global/res_mh_3d.png',pwd);
+saveas(gcf,png_path);
+
 
 
 figure(2);
@@ -40,5 +46,9 @@ surf(fd_max,fh_max,fsh_max);
 grid on;
 xlabel('D');
 ylabel('H');
-zlabel('\sigma^2(H)');
+zlabel('\sigma(H,D)');
 shading interp;
+view(-37.5,30);
+png_path=sprintf('%s/res-global/res_sh_3d.png',pwd);
+saveas(gcf,png_path);
+

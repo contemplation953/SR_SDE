@@ -66,7 +66,7 @@ begin_index=BeginTime/Stepsize;
 file_index=1;
 
 
-for D=[0.004,0.0258,0.036,0.04]
+for D=[0.004,0.0258,0.036]
 tic;
     %直方计数
     statistics_count=zeros(length(pst),1);

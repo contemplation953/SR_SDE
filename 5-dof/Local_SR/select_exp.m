@@ -17,6 +17,6 @@ end
 
 figure(1);
 bar3(res,0.5,'grouped');
-ylabel('p(m)');
-zlabel('Loss_{pq}');
-legend('p(\sigma)=1','p(\sigma)=2','p(\sigma)=3','p(\sigma)=4','p(\sigma)=5');
+ylabel('d_m','FontSize',12);
+zlabel('Loss_d','FontSize',12);
+legend('d_{\sigma}=1','d_{\sigma}=2','d_{\sigma}=3','d_{\sigma}=4','d_{\sigma}=5','FontSize',12);

@@ -77,7 +77,7 @@ for data_index=1:length(D_list)
     ylabel('MSE','FontSize',20);
     lgd=legend('simulation data','theoretical results','predictive results');
     lgd.FontSize = 20;
-    title('\sigma(H)','FontSize',20);
+    title('\sigma^2(H)','FontSize',20);
     saveas(gcf,png_path2);
 
     

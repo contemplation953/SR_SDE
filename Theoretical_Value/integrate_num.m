@@ -18,8 +18,9 @@ R_table=calculate_R(5, diff_list, data_path);
 
 file_index=1;
 
-D_add=[0.004,0.0258,0.036,0.04];
-for D=D_add
+% D_add=[0.004,0.0258,0.036,0.04];
+D_list=0.005:0.0005:0.035;
+for D=D_list
     eta3=D*5;
     M_H=eta3 - 1./(5.*TT_int_list).*M_int_list;
     Sigma_H_square=2*eta3./(5.*TT_int_list).*Sigma_square_int_list;
@@ -30,7 +31,8 @@ for D=D_add
     end
     C=trapz(H_list,pdf_list);
     pdf=pdf_list/C;
-    save(sprintf('%s/val_analyse_%d.mat',data_path,file_index),'M_H','Sigma_H_square','pdf','-v7.3');
+    %save(sprintf('%s/val_analyse_%d.mat',data_path,file_index),'M_H','Sigma_H_square','pdf','-v7.3');
+    save(sprintf('%s/analyse_%d.mat',data_path,file_index),'M_H','Sigma_H_square','pdf','-v7.3');
     file_index=file_index+1;
 end
 

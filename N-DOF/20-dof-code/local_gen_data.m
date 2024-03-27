@@ -9,10 +9,10 @@ statistics_step=pst(2)-pst(1);
 statistics_bound=pst(end)/statistics_step;
 Stepsize=5e-3;
 %运行总时间
-FinalTime=350;
+FinalTime=3500;
 
 %开始存储的时间
-BeginTime=200;
+BeginTime=2000;
 %样本数
 NumberOfSample=200;
 NumberOfSubinterval = ceil(FinalTime/Stepsize);
@@ -82,7 +82,7 @@ tic;
     monment_count(monment_count==0)=1;
     moment1=(moment1_diff./monment_count)';
     moment2=(moment2_diff./monment_count)';
-    parsave(sprintf('%s/20_dof_data/H_%d.mat',root_path,par_index),p_data,moment1,moment2,monment_count);
+    %parsave(sprintf('%s/20_dof_data/H_%d.mat',root_path,par_index),p_data,moment1,moment2,monment_count);
 toc;
 end
 plot(p_data);

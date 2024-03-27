@@ -25,26 +25,29 @@ figure(1);
 surf(d_val,h_val,mh_val);
 xlabel('D');
 ylabel('H');
-zlabel('M(H)');
+zlabel('M(H,D)');
 shading interp;
 sf1=fit([fd_val, fh_val],fmh_val,'poly12');
+view(-67.71,40.57);
 params_m=coeffvalues(sf1);
-figure(2);
-plot(sf1,[fd_val, fh_val],fmh_val);
+% figure(2);
+% plot(sf1,[fd_val, fh_val],fmh_val);
 
 
 figure(3);
 surf(d_val,h_val,sh_val);
 xlabel('D');
 ylabel('H');
-zlabel('\sigma^2(H)');
+zlabel('\sigma(H,D)');
 shading interp;
 sf2=fit([fd_val, fh_val],fsh_val,'poly22');
-figure(4);
-plot(sf2,[fd_val, fh_val],fsh_val);
+view(-37.5,30);
+
+% figure(4);
+% plot(sf2,[fd_val, fh_val],fsh_val);
 params_s=coeffvalues(sf2);
 if params_s(1)<0
     params_s(1)=0;
 end
 
-save(sprintf('%s/ML_ans_params.mat',data_path),'fd_val','fh_val','fmh_val','fsh_val','-v7.3');
+% save(sprintf('%s/ML_ans_params.mat',data_path),'fd_val','fh_val','fmh_val','fsh_val','-v7.3');

@@ -40,7 +40,10 @@ shading interp;
 grid on;
 xlabel('D');
 ylabel('H');
-zlabel('M(H)');
+zlabel('M(H,D)');
+view(-67.71,40.57);
+png_path=sprintf('%s/res/mh_points.png',pwd);
+saveas(gcf,png_path);
 
 
 % coff_init1=[-0.04005270118,0.04147547001,5.959692263518988,1,-5.959692263518988];
@@ -63,13 +66,10 @@ shading interp;
 grid on;
 xlabel('D');
 ylabel('H');
-zlabel('\sigma(H)');
-
-
-
-% coff_init2=[2.303289357,- 1.985958922717043,2.7264927140631485,0.18001531848872626];
-% fun_sh=@(c1,c2,c3,c4,x,y) c1*y.^2.*x.^3+c2*y.^2.*x.^2+c3*y.*x+c4;
-% sf2 = fit( [fd_val, fh_val], fsh_val, fun_sh,'StartPoint', coff_init2);
+zlabel('\sigma(H,D)');
+view(-37.5,30);
+png_path=sprintf('%s/res/sh_points.png',pwd);
+saveas(gcf,png_path);
 
 sf2 = fit( [fd_val, fh_val], fsh_val, 'poly23');
 
@@ -85,5 +85,5 @@ ylabel('H');
 zlabel('\sigma(H)');
 x=[params_m,params_s];
 
-save(sprintf('%s/ML_init_params.mat',data_path),'fd_val','fh_val','fmh_val','fsh_val','-v7.3');
-save(sprintf('%s/global_init_params.mat',data_path),'x','mhv1','shv1','fsh_val','-v7.3');
+% save(sprintf('%s/ML_init_params.mat',data_path),'fd_val','fh_val','fmh_val','fsh_val','-v7.3');
+% save(sprintf('%s/global_init_params.mat',data_path),'x','mhv1','shv1','fsh_val','-v7.3');

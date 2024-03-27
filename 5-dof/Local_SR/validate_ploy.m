@@ -19,8 +19,8 @@ M_H=data1.M_H;
 Sigma_H_square=data1.Sigma_H_square;
 
 
-mh_p=4;
-sh_p=5;
+mh_p=1;
+sh_p=1;
 root_path=pwd();
 data2=load(sprintf('%s/SSR_%d_%d.mat',ssr_path,mh_p,sh_p));
 coeff=data2.x_list(data_index,:);
@@ -52,6 +52,6 @@ lgd.FontSize = 20;
 grid on;
 xlabel('H','FontSize',20);
 ylabel('MSE','FontSize',20);
-title('\sigma(H)','FontSize',20);
+title('\sigma^2(H)','FontSize',20);
 saveas(gcf,sprintf('%s/res/pol_s_%d.png',root_path,sh_p));
 
